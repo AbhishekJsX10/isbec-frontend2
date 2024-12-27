@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-    ? 'https://isbec-backend2.onrender.com'
+    ? 'https://isbec-backend2.onrender.com/api/mail'
     : 'http://localhost:8081/api';
 
 const api = axios.create({
