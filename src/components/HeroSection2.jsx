@@ -1,8 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import meetingRoom from '../assets/meeting-room.avif'
+import meetingRoom from '../assets/hero-1.png'
+import meetingRoom2 from '../assets/hero-2.png'
 import circularPerson from '../assets/circularPerson.avif'
 import BookDemoModal from './BookDemoModal'
+import review1 from '../assets/review-person1.jpg'
+import review2 from '../assets/review-person2.jpg'
+import review3 from '../assets/review-person3.jpg'
+import review4 from '../assets/review-person4.jpg'
+
 
 const HeroSection2 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -40,7 +46,7 @@ const HeroSection2 = () => {
           <div className="absolute top-[11.3rem] lg:right-[5%] xl:right-[-18rem]">
             <div className="rounded-br-[32px] rounded-tl-[32px] overflow-hidden">
               <img 
-                src={meetingRoom} 
+                src={meetingRoom2} 
                 alt="Meeting Room" 
                 className="w-[21rem] h-[13rem] object-cover"
               />
@@ -50,16 +56,16 @@ const HeroSection2 = () => {
           <div className="absolute bottom-[-5.3rem] lg:left-[8%] xl:left-[-16.5rem] max-w-[27rem] flex flex-col items-center">
             <div className='relative'>
               <p className="text-gray-600 text-base mb-4 text-[0.9rem] leading-[1.1]">
-                We invest in high-quality businesses that form the backbone of the global economy, investing alongside our clients in nearly everything we do.
+              A global network of professionals delivering the best practices and leading technologies to revolutionize the Indian construction industry.
               </p>
-              <div className="absolute bottom-[-2rem] left-[11rem] flex -space-x-3">
-                {[1, 2, 3, 4].map((index) => (
+              <div className="absolute bottom-[-3rem] left-[11rem] flex -space-x-3">
+                {[review1,review2,review3,review4].map((index) => (
                   <div 
                     key={index}
                     className="w-14 h-14 rounded-full border-2 border-white overflow-hidden"
                   >
                     <img 
-                      src={circularPerson} 
+                      src={index} 
                       alt={`Team Member ${index}`}
                       className="w-full h-full object-cover"
                     />
@@ -71,7 +77,7 @@ const HeroSection2 = () => {
 
           <div className="absolute bottom-[-4rem] lg:right-[8%] xl:right-[-16.5rem] max-w-[20rem] flex flex-col items-center">
             <p className="text-gray-600 text-base mb-4 text-[0.8rem] leading-[1.1]">
-              We invest in high-quality businesses that form the backbone of the global economy, investing alongside our clients in nearly everything we do.
+            Our experienced team brings decades of expertise across developed and emerging markets, ensuring innovative and sustainable solutions.
             </p>
           </div>
         </div>
@@ -107,7 +113,7 @@ const HeroSection2 = () => {
               </div>
               <div className='max-w-[280px]'>
                 <p className='text-gray-600 text-sm leading-relaxed text-center'>
-                  We invest in high-quality businesses that form the backbone of the global economy, investing alongside our clients in nearly everything we do.
+                A global network of professionals delivering the best practices and leading technologies to revolutionize the Indian construction industry.
                 </p>
               </div>
             </div>
@@ -115,11 +121,11 @@ const HeroSection2 = () => {
             {/* Right Image and Text */}
             <div className='flex flex-col items-center'>
               <div className='rounded-br-[32px] rounded-tl-[32px] overflow-hidden mb-6'>
-                <img src={meetingRoom} alt="Meeting Room" className='w-full h-[200px] object-cover'/>
+                <img src={meetingRoom2} alt="Meeting Room" className='w-full h-[200px] object-cover'/>
               </div>
               <div className='max-w-[280px]'>
                 <p className='text-gray-600 text-sm leading-relaxed text-center'>
-                  We invest in high-quality businesses that form the backbone of the global economy, investing alongside our clients in nearly everything we do.
+                  Our experienced team brings decades of expertise across developed and emerging markets, ensuring innovative and sustainable solutions.
                 </p>
               </div>
             </div>
@@ -158,7 +164,7 @@ const HeroSection2 = () => {
               </div>
               <div className='w-full md:w-full sm:order-1 md:order-none'>
                 <p className='text-gray-600 text-sm md:text-base leading-relaxed text-center md:text-center'>
-                  We invest in high-quality businesses that form the backbone of the global economy, investing alongside our clients in nearly everything we do.
+                A global network of professionals delivering the best practices and leading technologies to revolutionize the Indian construction industry.
                 </p>
               </div>
             </div>
@@ -167,12 +173,12 @@ const HeroSection2 = () => {
             <div className='flex-1 flex flex-col sm:flex-row md:flex-col items-center gap-6'>
               <div className='w-full md:w-full'>
                 <div className='rounded-br-[32px] rounded-tl-[32px] overflow-hidden'>
-                  <img src={meetingRoom} alt="Meeting Room" className='w-full h-40 md:h-48 object-cover'/>
+                  <img src={meetingRoom2} alt="Meeting Room" className='w-full h-40 md:h-48 object-cover'/>
                 </div>
               </div>
               <div className='w-full md:w-full'>
                 <p className='text-gray-600 text-sm md:text-base leading-relaxed text-center md:text-center'>
-                  We invest in high-quality businesses that form the backbone of the global economy, investing alongside our clients in nearly everything we do.
+                  Our experienced team brings decades of expertise across developed and emerging markets, ensuring innovative and sustainable solutions.
                 </p>
               </div>
             </div>

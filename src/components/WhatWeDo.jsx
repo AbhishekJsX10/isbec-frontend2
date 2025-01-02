@@ -4,18 +4,18 @@ const WhatWeDo = () => {
   const services = [
     {
       icon: "cube",
-      title: "Infrastructure",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      title: "Project Management",
+      description: "ISBE Consulting ensures seamless project execution with a focus on quality, timelines, and efficiency. Our expertise delivers measurable results in every project."
     },
     {
       icon: "cube",
-      title: "IT",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      title: "Sustainable Consulting",
+      description: "ISBE Consulting integrates sustainability into every project. We provide green solutions to reduce environmental impact and promote responsible development."
     },
     {
       icon: "cube",
-      title: "Telecom",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      title: "Global Networking",
+      description: "ISBE Consulting connects clients to a global network of professionals and resources. We foster collaboration to deliver cutting-edge, scalable solutions."
     }
   ];
 
@@ -28,7 +28,7 @@ const WhatWeDo = () => {
   );
 
   return (
-    <div className="w-full py-10 sm:py-8 mb-10 bg-white">
+    <section id="what-we-do" className="w-full py-12 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-['Poppins'] font-bold text-center mb-8 md:mb-12 lg:mb-16">
           What We Do
@@ -64,7 +64,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

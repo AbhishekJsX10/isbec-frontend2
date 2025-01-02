@@ -1,33 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import constructionSite from '../assets/construction-site.avif';
-import interiorSite from '../assets/interior-site.avif';
-import telecomSite from '../assets/telecom-site.avif';
+import constructionSite from '../assets/Project1- Reliance Trends.jpg';
+import interiorSite from '../assets/project2-salon design.jpg';
+import telecomSite from '../assets/project3-good earth brewery.jpg';
 
 const InvestedIn = () => {
   const sites = [
     {
       image: constructionSite,
-      title: "VSV Construction site",
-      location: "Dwarka, Delhi",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      title: "Reliance Trends - Construction Site",
+      location: "Patna, Bihar",
+      description: "Modern commercial complex with retail and office , visibility , wide column free space with roof top restaurant concept in Tier 2 cities."
     },
     {
       image: interiorSite,
-      title: "HSCC - Interior Site",
+      title: "Vijay Salon",
       location: "Paschim Vihar, Delhi",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      description: "ISBE Consulting successfully transformed a premium salon project, delivering a modern, elegant design with optimized functionality.The project highlights our expertise in creating tailored infrastructure solutions that elevate client experiences."
     },
     {
       image: telecomSite,
-      title: "NBCC - Telecome Site",
-      location: "Hauz Khas, Delhi",
+      title: "Good Earth Brewery",
+      location: "Gurgaon, Haryana",
       description: "ISBE Consulting empowers infrastructure and construction excellence through expert delivery, operational efficiency, and financial management, ensuring successful outcomes."
     }
   ];
 
   return (
-    <div className="w-full py-16 bg-white">
+    <section id="projects" className="w-full py-12 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-['Poppins'] font-bold mb-8 sm:mb-10 md:mb-12 lg:mb-16
                        text-center md:text-center lg:text-left">
@@ -87,7 +87,7 @@ const InvestedIn = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

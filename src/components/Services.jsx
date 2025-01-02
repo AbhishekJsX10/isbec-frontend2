@@ -5,17 +5,17 @@ const Services = () => {
     {
       icon: "cube",
       title: "Infrastructure",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      description: "ISBE Consulting delivers innovative solutions for infrastructure projects. With global expertise, we enhance project efficiency, sustainability, and ensure impactful results."
     },
     {
       icon: "cube",
       title: "IT",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      description: "ISBE Consulting integrates cutting-edge IT solutions to drive operational excellence. We specialize in tailored strategies for seamless project execution and outcomes."
     },
     {
       icon: "cube",
       title: "Telecom",
-      description: "ISBE Consulting empowers infrastructure and construction excellence through expert guidance. Our tailored solutions enhance project delivery, operational efficiency, and financial management, ensuring successful outcomes."
+      description: "ISBE Consulting advances telecom development with innovative methodologies. Our team ensures efficient project management, operational growth, and technological progress."
     }
   ];
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IoCopy } from "react-icons/io5";
 
 const PhoneModal = ({ isOpen, onClose }) => {
-  const phoneNumber = "7503398182";
+  const phoneNumber = "9818023948";
   const [copied, setCopied] = useState(false);
   
   const copyToClipboard = () => {

@@ -111,7 +111,7 @@ const Footer = () => {
         <div className="lg:w-[40%] space-y-12">
           <div className="text-center">
             <h3 className="text-2xl mb-2">Call Us:</h3>
-            <p className="text-3xl">+8989898989</p>
+            <p className="text-3xl">+91-9818023948</p>
           </div>
           <div className="space-y-6">
             <h3 className="text-3xl text-center font-['Prosto_One'] font-bold tracking-wide">Contact us</h3>
@@ -187,9 +187,9 @@ const Footer = () => {
           {/* Bottom Content */}
           <div className="flex flex-col md:flex-row justify-between items-start gap-16 mt-12">
             <div className="space-y-4 text-center min-w-[200px]">
-              <Link to="/about" className="block text-[1rem] hover:text-gray-300">About Us</Link>
-              <Link to="/projects" className="block text-[1rem] hover:text-gray-300">Projects</Link>
-              <Link to="/what-we-do" className="block text-[1rem] hover:text-gray-300">What We Do</Link>
+              <a href="#about" className="block text-[1rem] hover:text-gray-300">About Us</a>
+              <a href="#projects" className="block text-[1rem] hover:text-gray-300">Projects</a>
+              <a href="#what-we-do" className="block text-[1rem] hover:text-gray-300">What We Do</a>
               <Link to="/services" className="block text-[1rem] hover:text-gray-300">Services</Link>
             </div>
 
@@ -202,10 +202,10 @@ const Footer = () => {
               <div>
                 <h3 className="text-3xl mb-4 font-['Prosto_One'] font-bold tracking-wide">Social Links</h3>
                 <div className="flex gap-8 justify-center">
-                  <a href="#" className="hover:text-gray-300 text-2xl"><FaInstagram /></a>
-                  <a href="#" className="hover:text-gray-300 text-2xl"><IoMailOutline /></a>
-                  <a href="#" className="hover:text-gray-300 text-2xl"><FaLinkedinIn /></a>
-                  <a href="#" className="hover:text-gray-300 text-2xl"><FaTwitter /></a>
+                  <Link href="#" className="hover:text-gray-300 text-2xl"><FaInstagram /></Link>
+                  <a href="mailto:isbecabhishek@gmail.com" className="hover:text-gray-300 text-2xl"><IoMailOutline /></a>
+                  <a href="https://www.linkedin.com/company/isbe-group/" className="hover:text-gray-300 text-2xl"><FaLinkedinIn /></a>
+                  <Link href="#" className="hover:text-gray-300 text-2xl"><FaTwitter /></Link>
                 </div>
               </div>
             </div>
@@ -237,9 +237,9 @@ const Footer = () => {
           {/* Left Column - Navigation */}
           <div>
             <div className="space-y-6 text-left">
-              <Link to="/about" className="block text-base font-light">About Us</Link>
-              <Link to="/projects" className="block text-base font-light">Projects</Link>
-              <Link to="/what-we-do" className="block text-base font-light">What We Do</Link>
+              <a href="#about" className="block text-base font-light">About Us</a>
+              <a href="#projects" className="block text-base font-light">Projects</a>
+              <a href="#what-we-do" className="block text-base font-light">What We Do</a>
               <Link to="/services" className="block text-base font-light">Services</Link>
             </div>
           </div>

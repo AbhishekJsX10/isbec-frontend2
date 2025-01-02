@@ -45,9 +45,7 @@ const Header = ({ onPhoneClick }) => {
       <div className="flex items-center justify-between h-20 px-8 relative">
         {/* Logo and Brand */}
         <div className="flex items-center space-x-2">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 0L32 16L16 32L0 16L16 0Z" fill="#000"/>
-          </svg>
+          <img src="./src/assets/logo-isbe.jpg" className="w-10 h-10" alt="" />
           <span className="text-xl font-semibold tracking-wide">ISBEC</span>
         </div>
 
