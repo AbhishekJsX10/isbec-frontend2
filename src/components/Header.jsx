@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
 import { LuPhoneCall } from "react-icons/lu";
 import BookDemoModal from './BookDemoModal';
+import logo from '../assets/logo-isbe.jpg';
 
 const Header = ({ onPhoneClick }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -45,7 +46,7 @@ const Header = ({ onPhoneClick }) => {
       <div className="flex items-center justify-between h-20 px-8 relative">
         {/* Logo and Brand */}
         <div className="flex items-center space-x-2">
-          <img src="./src/assets/logo-isbe.jpg" className="w-10 h-10" alt="" />
+          <img src={logo} className="w-10 h-10" alt="" />
           <span className="text-xl font-semibold tracking-wide">ISBEC</span>
         </div>
 
